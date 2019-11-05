@@ -1,10 +1,10 @@
 package jfacetutorial.treeviewer;
-
+import java.util.List;
 import org.eclipse.jface.viewers.TreeViewer;
 import org.eclipse.swt.SWT;
 import org.eclipse.swt.layout.FillLayout;
 import org.eclipse.swt.widgets.Display;
-import org.eclipse.swt.widgets.List;
+//import org.eclipse.swt.widgets.List;
 import org.eclipse.swt.widgets.Shell;
 import org.eclipse.swt.widgets.Tree;
 
@@ -63,7 +63,7 @@ public class TreeViewDemo {
 		AppMenu menu = input.get(0);
 		List<AppMenu> childMenus = menu.getChildren();
 		// add AppMenu
-		childMenus .add(newAppMenu);
+		//childMenus.add(newAppMenu);
 		// Refresh
 		treeViewer.refresh(menu );
 		// or
