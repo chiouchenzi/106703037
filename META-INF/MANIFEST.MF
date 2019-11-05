@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: RCPplugin
+Bundle-SymbolicName: jfacetutorialnew;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: rcpplugin.Activator
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime,
+ org.apache.felix.scr,
+ org.eclipse.equinox.util,
+ org.eclipse.equinox.event,
+ org.eclipse.swt.win32.win32.x86_64.source;bundle-version="3.112.0",
+ org.eclipse.swt.examples;bundle-version="3.106.600"
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Automatic-Module-Name: RCPplugin
+Bundle-ActivationPolicy: lazy
