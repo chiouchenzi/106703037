@@ -1,8 +1,8 @@
 package jfacetutorial.treeviewer;
 
+import java.util.List;
 
-
-import org.eclipse.swt.widgets.List;
+//import org.eclipse.swt.widgets.List;
 
 import jfacetutorial.AppMenu;
 import jfaceprovider.AbstractTreeContentLabelProvider;
